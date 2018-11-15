@@ -13,21 +13,21 @@ public class Factorial {
 
     public static void main(String[] args) {
 
-        int j;
-        int f;
+        int valorMultiplicado;
+        int factorial;
 
-        j = 8;
+        valorMultiplicado = 8;
 
         int i;
-        if (j == 0) {
-            f = 1;
+        if (valorMultiplicado == 0) {
+            factorial = 1;
         } else {
-            f = 1;
-            for (i = j; i >= 1; i--) {
-                f = f * i;
+            factorial = 1;
+            for (i = valorMultiplicado; i >= 1; i--) {
+                factorial = factorial * i;
             }
         }
 
-        System.out.println(f);
+        System.out.println(factorial);
     }
 }
